@@ -70,49 +70,129 @@
                 display: block;
             }
         }
+		
+		.feature img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.hero {
+    background: 
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url('assets/images/upvc-banner.jpg') center / cover no-repeat;
+    padding: 120px 40px;
+    text-align: center;
+    color: #fff;
+}
+.contact-section {
+    background: #f9f9f9;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.contact-box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-details {
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.quote-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 32px;
+    background: #ff9800;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.quote-btn:hover {
+    background: #e68900;
+}
+
+
     </style>
 </head>
 <body>
 
 <header>
-    <h2>Shovarudra Enterprises</h2>
+    <h2>Shivarudra Enterprises</h2>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Windows</a>
-        <a href="#">Doors</a>
-        <a href="#">Contact</a>
-    </nav>
+    <a href="#">Home</a>
+    <a href="#">Windows</a>
+    <a href="#">Doors</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
 </header>
 
 <section class="hero">
-    <h1>Premium uPVC Doors & Windows</h1>
-    <p>
-        We manufacture high-quality uPVC doors and windows using
+<p>
+        We make high-quality uPVC doors and windows using
         materials from India’s No.1 uPVC manufacturer,
         ensuring durability, performance, and modern design.
-    </p>
+    </p><br/>  <br/>  
+	 <img src="assets/images/banner.png"> 
+    
 </section>
+
 
 <section class="section">
     <h2>Why Choose Us</h2>
     <div class="features">
         <div class="feature">
-            <h3>Superior Quality</h3>
-            <p>Built with precision and premium-grade uPVC materials.</p>
-        </div>
-        <div class="feature">
-            <h3>Energy Efficient</h3>
-            <p>Excellent insulation for all weather conditions.</p>
-        </div>
-        <div class="feature">
-            <h3>Low Maintenance</h3>
-            <p>Rust-free, termite-proof, and easy to maintain.</p>
-        </div>
+		<h3>Superior Quality</h3>
+    <img src="assets/images/quality.png" alt="Superior Quality">    
+    <p>Built with precision and premium-grade uPVC materials.</p>
+</div>
+
+<div class="feature">
+ <h3>Energy Efficient</h3>
+    <img src="assets/images/energy.png" alt="Energy Efficient">   
+    <p>Excellent insulation for all weather conditions.</p>
+</div>
+
+<div class="feature">
+ <h3>Low Maintenance</h3>
+    <img src="assets/images/maintenance1.png" alt="Low Maintenance">   
+    <p>Rust-free, termite-proof, and easy to maintain.</p>
+</div>
+
     </div>
 </section>
 
+
+<section class="contact-section" id="contact">
+    <div class="contact-box">
+        <h2>Contact Us</h2>
+
+        <div class="contact-details">
+            <p><strong>📞 Phone:</strong> +91 9XXXXXXXXX</p>
+            <p><strong>📧 Email:</strong> shivarudraenterprises@gmail.com</p>
+            <p><strong>📍 Location:</strong> Huzurabad & Karimnagar, Telangana, India</p>
+        </div>
+
+        <!-- Redirect Button -->
+        <a 
+           href="https://wa.me/919XXXXXXXXX" 
+           target="_blank" 
+           class="quote-btn">
+            Get Free Quote
+        </a>
+    </div>
+</section>
 <footer>
-    <p>© 2026 Shovarudra Enterprises. All Rights Reserved.</p>
+    <p>© 2026 Shivarudra Enterprises. All Rights Reserved.</p>
 </footer>
 
 </body>
